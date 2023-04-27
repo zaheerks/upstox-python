@@ -1,3 +1,4 @@
-requests==2.18.1
-future==0.16
+requests==2.20
+future==0.18.3
 websocket_client==0.40.0
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
